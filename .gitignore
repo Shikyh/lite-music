@@ -1,0 +1,7 @@
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# Node.js
+node_modules/
