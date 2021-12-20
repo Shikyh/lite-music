@@ -1,0 +1,11 @@
+/* pages/home-video/index.wxss */
+page {
+	padding: 0px 10rpx;
+	box-sizing: border-box;
+}
+
+.video {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10rpx;
+}
