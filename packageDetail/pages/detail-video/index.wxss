@@ -1,0 +1,37 @@
+/* pages/detail-video/index.wxss */
+page {
+	box-sizing: border-box;
+	height: 100%;
+}
+#video-wrap {
+	width: 100%;
+	height: 450rpx;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.video {
+	width: 100%;
+	/* height: 225px; */
+}
+.info {
+	padding: 30rpx;
+}
+
+.info .title {
+	font-weight: 700;
+}
+
+.info .desc,
+.info .other {
+	font-size: 24rpx;
+	margin-top: 10rpx;
+	color: #666;
+}
+
+/* 相关视频 */
+.recommend {
+	padding: 30rpx;
+}

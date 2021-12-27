@@ -9,6 +9,15 @@
     "navigationBarTitleText": "轻享乐",
     "navigationBarTextStyle": "black"
   },
+  "subPackages": [
+    {
+      "root": "packageDetail",
+      "name": "pDetail",
+      "pages": [
+        "pages/detail-video/index"
+      ]
+    }
+  ],
   "tabBar": {
     "list": [
       {
