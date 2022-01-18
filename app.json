@@ -14,7 +14,8 @@
       "root": "packageDetail",
       "name": "pDetail",
       "pages": [
-        "pages/detail-video/index"
+        "pages/detail-video/index",
+        "pages/detail-songs/index"
       ]
     }
   ],
