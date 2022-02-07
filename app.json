@@ -14,11 +14,29 @@
       "root": "packageDetail",
       "name": "pDetail",
       "pages": [
+        "pages/detail-search/index",
+        "pages/detail-songs/index",
         "pages/detail-video/index",
-        "pages/detail-songs/index"
+        "pages/detail-menu/index"
+      ]
+    },
+    {
+      "root": "packagePlayer",
+      "name": "pPlayer",
+      "pages": [
+        "pages/music-player/index"
       ]
     }
   ],
+  "preloadRule": {
+    "pages/home-music/index": {
+      "network": "all",
+      "packages": [
+        "packageDetail",
+        "packagePlayer"
+      ]
+    }
+  },
   "tabBar": {
     "list": [
       {
@@ -36,5 +54,7 @@
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "debug": true
 }
